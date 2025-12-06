@@ -19,3 +19,14 @@ function checkErrors() {
 inputs.forEach(input => {
   input.addEventListener("input", checkErrors);
 });
+
+
+
+const buttonUp = document.querySelector('.button_up');
+
+buttonUp.addEventListener('click', () => {
+  window.scrollTo({
+    top: 0,
+    behavior: 'smooth'
+  });
+});
