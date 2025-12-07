@@ -30,3 +30,24 @@ buttonUp.addEventListener('click', () => {
     behavior: 'smooth'
   });
 });
+
+
+document.addEventListener('DOMContentLoaded', () => {
+  const slides = document.querySelectorAll('.slider');
+  let currentSlide = 0;
+  const interval = 5000; // 5 секунд
+
+  // показать первый слайд
+  slides[currentSlide].classList.add('active');
+
+  setInterval(() => {
+    slides[currentSlide].classList.remove('active');
+
+    currentSlide++;
+    if (currentSlide >= slides.length) {
+      currentSlide = 0;
+    }
+
+    slides[currentSlide].classList.add('active');
+  }, interval);
+});
