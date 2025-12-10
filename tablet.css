@@ -303,8 +303,8 @@ body {
   text-transform: uppercase;
   z-index: 3;
   position: absolute;
-  right: 150px;
-  top: 148px;
+  right: 104px;
+  top: 150px;
 }
 
 .slider_3_text_weak_white {
@@ -317,8 +317,8 @@ body {
   text-transform: uppercase;
   z-index: 3;
   position: absolute;
-  right: 124px;
-  top: 202px;
+  right: 63px;
+  top: 190px;
 }
 
 .slider_3_text_bright_red {
@@ -331,7 +331,7 @@ body {
   text-transform: uppercase;
   z-index: 3;
   position: absolute;
-  right: 78px;
-  top: 256px;
+  right: 22px;
+  top: 230px;
 }
 
