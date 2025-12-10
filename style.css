@@ -531,7 +531,8 @@ body {
 /* contact us */
 
 .contact_us_section {
-  min-height: 471px;
+  min-height: 418px;
+  margin-bottom: 53px;
 }
 
 .contact_us_title {
