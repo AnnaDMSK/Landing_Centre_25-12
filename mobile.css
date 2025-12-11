@@ -1,24 +1,29 @@
 /* Mobile.css*/
 
+
+html {
+  max-width: 440px;
+}
 body {
   max-width: 420px;
+  min-width: 300px;
   margin: 0 auto;
   box-sizing: border-box;
 }
 
 .header__container {
-   position: relative; 
+  position: relative; 
 }
 
 .header__menu {
-    display: none; /* скрываем десктоп меню */
+  display: none; /* скрываем десктоп меню */
   }
 
-  .burger {
-    display: flex; /* включаем бургер */
+.burger {
+  display: flex; /* включаем бургер */
   }
 
-  .mobile_menu.open {
+.mobile_menu.open {
     display: flex; /* показать меню */
   }
 
