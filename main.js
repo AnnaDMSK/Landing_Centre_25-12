@@ -53,3 +53,24 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 */
+
+
+document.addEventListener("DOMContentLoaded", () => {
+  const burger = document.querySelector(".burger");
+  const mobileMenu = document.querySelector(".mobile_menu");
+
+  burger.addEventListener("click", () => {
+    burger.classList.toggle("active");
+    mobileMenu.classList.toggle("open");
+  });
+
+  mobileMenu.querySelectorAll("a").forEach(link =>
+    link.addEventListener("click", () => {
+      burger.classList.remove("active");
+      mobileMenu.classList.remove("open");
+    })
+  );
+});
+
+
+

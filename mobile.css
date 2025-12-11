@@ -1,0 +1,45 @@
+/* Mobile.css*/
+.header__menu {
+    display: none; /* скрываем десктоп меню */
+  }
+
+  .burger {
+    display: flex; /* включаем бургер */
+  }
+
+  .mobile_menu.open {
+    display: flex; /* показать меню */
+  }
+
+
+/* Анимация бургера */
+.burger.active div:nth-child(1) {
+  transform: translateY(9px) rotate(45deg);
+  }
+
+  .burger.active div:nth-child(2) {
+    opacity: 0;
+  }
+
+  .burger.active div:nth-child(3) {
+    transform: translateY(-9px) rotate(-45deg);
+  }
+
+  .logo_left {
+    display: none;
+  }
+
+.header__title ,
+.header__subtitle {
+  display: none;
+}
+
+
+.header {
+  height: 130px;
+}
+
+.mobile_menu {
+  z-index: 9999;
+  position: absolute;
+}
