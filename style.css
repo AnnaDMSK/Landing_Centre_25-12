@@ -22,7 +22,6 @@ body {
 .header__container{
   display: flex;
   justify-content: space-between;
-  position: relative; /* ← ОБЯЗАТЕЛЬНО */
   z-index: 10;
 }
  
@@ -125,7 +124,7 @@ body {
   position: absolute;
   top: 100%; 
   right: 0%;
-  width: 200px; 
+  width: 150px; 
   height: 126px;
   padding: 0px 0px; 
   z-index: 9999;

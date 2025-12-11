@@ -6,6 +6,10 @@ body {
   box-sizing: border-box;
 }
 
+.header__container {
+   position: relative; 
+}
+
 .header__menu {
     display: none; /* скрываем десктоп меню */
   }
