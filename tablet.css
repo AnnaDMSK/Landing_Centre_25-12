@@ -97,16 +97,16 @@ body {
   margin-bottom: 52px;
   max-width: 865px;
 
-  /*opacity: 0;
+  opacity: 0;
   visibility: hidden;
   transition: opacity 0.8s ease-in-out;
   position: absolute;
   top: 0;
   left: 0;
-  width: 100%; */
-}
+  width: 100%; 
+  }
 
-/*.slider.active {
+.slider.active {
   opacity: 1;
   visibility: visible;
   position: relative;
@@ -115,7 +115,7 @@ body {
 .slider-wrapper {
   position: relative;
 }
-*/
+
 
 .rectangle {
   height: 324px;

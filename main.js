@@ -31,7 +31,7 @@ buttonUp.addEventListener('click', () => {
   });
 });
 
-/*
+
 document.addEventListener('DOMContentLoaded', () => {
   const slides = document.querySelectorAll('.slider');
   let currentSlide = 0;
@@ -52,7 +52,7 @@ document.addEventListener('DOMContentLoaded', () => {
   }, interval);
 });
 
-*/
+
 
 
 document.addEventListener("DOMContentLoaded", () => {
