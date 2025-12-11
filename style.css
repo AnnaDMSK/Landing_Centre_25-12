@@ -106,6 +106,8 @@ body {
   flex-direction: column;
   justify-content: space-between;
   cursor: pointer;
+  margin-top: 30px;
+  margin-bottom: 20px;
 }
 
 .burger div {
@@ -121,10 +123,11 @@ body {
   flex-direction: column;
   background: white;
   position: absolute;
-  top: 100%;
-  left: 0%; 
-  width: 100%; 
-  padding: 20px 0;
+  top: 100%; 
+  right: 0%;
+  width: 200px; 
+  height: 126px;
+  padding: 0px 0px; 
   z-index: 9999;
   text-align: right;
 }
@@ -132,12 +135,16 @@ body {
 
 
 .mobile_menu a {
-  padding: 15px 20px; 
+  padding: 10px 20px; 
   font-family: Helvetica;
-  font-size: 18px;
   text-transform: uppercase;
   color: var(--Black);
   text-decoration: none;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
 }
 
 
