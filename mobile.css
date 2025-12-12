@@ -84,7 +84,7 @@ body {
   position: relative;
   min-height: 200px;
   overflow: hidden;
-  margin-bottom: 52px;
+  margin-bottom: 40px;
   max-width: 420px;
 
   opacity: 0;
@@ -272,13 +272,13 @@ body {
 /* SLIDER 3 */
 
 .IA_image {
-  width: 212px;
+  width: 235px;
   height: auto;
   aspect-ratio: 1/1;
   position: absolute;
   z-index: 2; 
   filter: drop-shadow(30px 4px 5px  rgba(0, 0, 0, 0.25));
-  left: 0px;
+  left: -5px;
   bottom: 0;
 
 }
@@ -293,7 +293,7 @@ body {
   text-transform: uppercase;
   z-index: 3;
   position: absolute;
-  right: 51px;
+  right: 46px;
   top: 103px;
 }
 
@@ -307,7 +307,7 @@ body {
   text-transform: uppercase;
   z-index: 3;
   position: absolute;
-  right: 34px;
+  right: 29px;
   top: 122px;
 }
 
@@ -321,7 +321,7 @@ body {
   text-transform: uppercase;
   z-index: 3;
   position: absolute;
-  right: 22px;
+  right: 17px;
   top: 141px;
 }
 
