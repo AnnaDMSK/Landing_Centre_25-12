@@ -356,6 +356,7 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  margin-top: 20px;
 }
 
 .who_we_are {
@@ -367,7 +368,7 @@ body {
   line-height: 34px;
   text-transform: uppercase;
   position: relative;
-  padding-top: 48px;
+  padding-top: 38px;
   margin-left: 13px;
 }
 
@@ -390,6 +391,7 @@ body {
   line-height: 34px;
   text-transform: uppercase;
   margin-left: 13px;
+  margin-top: 30px;
  
 
 }
@@ -438,6 +440,7 @@ body {
   text-align: right;
   margin-right: 13px;
   position:relative;
+  margin-top: 30px;
 }
 
 .our_mission_text::before {
