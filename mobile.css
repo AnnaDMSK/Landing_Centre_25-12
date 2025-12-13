@@ -325,5 +325,158 @@ body {
   top: 141px;
 }
 
+/* WHO_WE_ARE */
+
+.who_we_are_section {
+  min-height: 414px;
+  background: var(--White);
+  box-shadow: 0 0 10px 0 var(--Black);
+  margin-bottom: 28px;
+}
+
+.who_content {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+
+}
+
+.sub_who_content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.who_we_are {
+  color: var(--Dark_Blu);
+  font-family: Helvetica;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: uppercase;
+  position: relative;
+  top: -10px;
+}
+
+.who_we_are::after {
+  content: " ";
+  position: absolute;
+  left: 0;
+  bottom: -5px;   
+  width: 152px;         
+  height: 2px;           
+  background: var(--Dark_Blu);
+}
+
+.centre_25-12_text {
+  color: var(--Black);
+  font-family: Helvetica;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25px;
+  text-transform: uppercase;
+  top: -30px;
+  position: relative;
+ 
+
+}
+
+.centre_25-12_text::before {
+  content: " ";
+  position: absolute;
+  left: -10px;
+  background: var(--Dark_Blu);
+  width: 5px;
+  height: 5px;
+  top: 14px;
+  
+}
+
+
+.sub_title_centre {
+  color: var(--Dark-Red);
+  font-family: Helvetica;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 34px; 
+  text-transform: uppercase;
+}
+
+.logo_no_numbers {
+  display: none;
+  width: 154px;
+  height: 75px;
+  background-image: url(logos/Logo_Right_NO_Numbers_red.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-top: 33px;
+  margin-left: 15px;
+
+}
+
+.our_mission_text {
+  color: var(--Black);
+  font-family: Helvetica;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25px;
+  text-transform: uppercase;
+  text-align: start;
+  left: 13px;
+  position:relative;
+  top: -14px;
+}
+
+.our_mission_text::before {
+  content: " ";
+  position: absolute;
+  background: var(--Dark_Blu);
+  width: 5px;
+  height: 5px;
+  top: 4px;
+  left: -10px;
+  
+
+}
+
+.partnerships_block {
+  align-self: stretch;
+  color: var(--Black);
+  text-align: right;
+  font-family: Helvetica;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: uppercase;
+  left: 15px;
+  position: relative;
+  top: -40px;
+}
+
+.partnerships, .ten_plus, .trusted {
+  position: relative;
+  text-align: start;
+}
+
+.partnerships::before,
+.ten_plus::before,
+.trusted::before {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-top: 3px solid transparent;
+  border-bottom: 3px solid transparent;
+  border-left: 6px solid var(--Dark-Red);
+  top: 4px;
+  left: -12px;
+}
+
 
 
