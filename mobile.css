@@ -480,3 +480,110 @@ body {
 
 
 
+/* WHAT WE DO */
+
+.what_we_do {
+  color: var(--Dark_Blu);
+  font-family: Helvetica;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 34px;
+  text-transform: uppercase;
+  position: relative;
+  text-align: right;
+
+}
+
+.what_we_do::before {
+  content: " ";
+  position: absolute;  
+  width: 152px;         
+  height: 2px;           
+  background: var(--Dark_Blu);
+  bottom: 2px;
+ 
+}
+
+/* Digital products & custom IT solutions for your business */
+.digital-products-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-bottom: 50px;
+}
+.digital_products {
+  min-height: 743px;
+}
+
+.product {
+  display: flex;
+  flex-direction: column;
+  flex: 0 0 auto; /* или flex-shrink: 0; */
+  width: fit-content;
+  border: 1px solid var(--Dark_Blu);
+  box-shadow: 0 0 6px 0 var(--Dark_Blu);
+  padding: 10px; 
+ 
+}
+
+.digital_products_title {
+  color: var(--Dark-Red);
+  font-family: Helvetica;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: uppercase;
+  margin: 40px 5px 33px 5px
+}
+
+.title_product {
+  color: var(--Dark_Blu);
+  font-family: Helvetica;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: uppercase;
+  margin: 0px 0px 10px 0px;
+}
+
+.product_details {
+  color: var(--Black);
+  font-family: Helvetica;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.program_languages {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 18px;
+}
+
+.circle_border {
+  width: 98px;
+  height: 101px;
+  border: 2px solid var(--Dark-Red);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center; /* горизонтально */
+  align-items: center; 
+
+}
+
+.language_title {
+  color: var(--Dark_Blu);
+  font-family: Helvetica;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
