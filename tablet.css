@@ -601,3 +601,83 @@ body {
   font-weight: 400;
   line-height: normal;
 }
+
+
+/* basic_approaches_section */
+
+.basic_approaches_section {
+  max-width: 860px;
+  min-height: 767px;
+  margin-top: 120px;
+  margin-bottom: 120px;
+  display: inline-flex;
+  flex-wrap: nowrap;
+  position: relative;
+}
+
+.basic_approaches_title {
+  color: var(--Dark-Red);
+  font-family: Helvetica;
+  font-size: 33px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: uppercase;
+  text-align: right;
+  white-space: nowrap;
+}
+
+.basic_approaches_items {
+  width: 485px;
+  height: 29px;
+  color: var(--White);
+  text-align: right;
+  font-family: Helvetica;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: uppercase;
+  background-color: var(--Dark_Blu);
+  padding: 5px 15px;
+}
+.item_analysis {
+  width: 386px;
+}
+
+.item_dev {
+ width: 189px;
+}
+
+.item_management {
+  width: 375px;
+}
+
+.item_assurance {
+ width: 275px;
+}
+
+.item_support {
+ width: 278px;
+}
+
+.basic_approaches_list {
+  position: absolute;
+  right: 0;          /* прижимаем к правому краю */
+  top: 100px;        /* регулируешь вертикаль */
+  z-index: 2;        /* поверх картинки */
+  right: 0px;
+  top: 120px;
+  align-items: end;
+
+
+}
+
+.robot {
+  width: 497px;
+  height: 751px;
+  position: relative;
+  z-index: 1;
+}
+
+
