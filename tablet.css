@@ -681,3 +681,108 @@ body {
 }
 
 
+/* prof_it_training_section */
+
+.prof_it_training_section {
+  min-height: 629px;
+  background: var(--White);
+  box-shadow: 0 0 10px 0 var(--Dark-Red);
+  margin-bottom: 120px;
+}
+
+.prof_it_training_subtitle {
+  display: flex;
+  justify-content: space-between;
+}
+
+.prof_it_title {
+  color: var(--Dark_Blu);
+  text-align: right;
+  font-family: Helvetica;
+  font-size: 33px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: uppercase;
+  margin-top: 62px;
+}
+
+.official_certification_container {
+  background: var(--Dark-Red);
+  width: 259px;
+  height: 31px;
+  display: flex;
+  justify-content: center; /* горизонтальное выравнивание */
+  align-items: center;
+  padding: 4px 6px 4px 6px;
+  margin-top: 70px;
+}
+
+.official_certification {
+  color: #FFF;
+  font-family: Helvetica;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.prof_it_training_subtitle {
+  color: var(--Dark-Red);
+  font-family: Helvetica;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+  margin-left: 15px;
+}
+
+.items {
+  color: var(--Black);
+  text-shadow: 0 0 2px rgba(0, 0, 0, 0.25);
+  font-family: Helvetica;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 115%; 
+  text-transform: uppercase;
+  margin-left: 15px;
+  position: relative;
+  padding-left: 10px;
+}
+
+.items::before {
+  content: "";
+  width: 5px;
+  height: 5px;
+  background: var(--Black);
+  content: "";
+  border-radius: 50%;
+  position: absolute;
+  transform: translateY(-50%);
+  left: 0;
+  top: 50%;
+}
+
+.main_block {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.block_early_tech {
+  margin-right: 15px;
+}
+
+.sub_block {
+  margin-left: 4px;
+  display: flex;
+  flex-direction: column;
+}
+
+.individual_training {
+  margin-top: 13px;
+}
