@@ -914,7 +914,7 @@ body {
   box-shadow: 0 0 8px 0 var(--Bright-Red);
   color: var(--Bright-Red);
   font-family: Helvetica;
-  font-size: 20px;
+  font-size: 14px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
@@ -955,7 +955,7 @@ body {
   background: var(--White);
   color: rgba(27, 42, 80, 0.50);
   font-family: Helvetica;
-  font-size: 26px;
+  font-size: 16px;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
