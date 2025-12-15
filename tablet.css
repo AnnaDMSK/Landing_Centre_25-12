@@ -844,11 +844,14 @@ body {
   text-align: left;
   margin-left: 13px;
   margin-bottom: 10px;
-  line-height: 35px;
+  line-height: 30px;
   margin-right: 60px;
   
 }
 
+.sub_apply_paragraph {
+  margin-right: 100px;
+}
 
 .sub_accent {
   color: var(--Dark-Red);
