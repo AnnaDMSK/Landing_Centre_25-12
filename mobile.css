@@ -862,14 +862,14 @@ body {
 }
 
 .input_item {
-  width: 315px;
-  height: 50px;
+  max-width: 350px;
+  max-height: 50px;
   border: 2px solid var(--Dark_Blu);
   background: var(--White);
   transition: 0.3s;
   color: var(--Black);
   font-family: Helvetica;
-  font-size: 20px;
+  font-size: 14px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
@@ -955,7 +955,7 @@ body {
   background: var(--White);
   color: rgba(27, 42, 80, 0.50);
   font-family: Helvetica;
-  font-size: 16px;
+  font-size: 14px;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
