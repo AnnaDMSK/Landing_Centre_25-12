@@ -15,7 +15,7 @@ body {
 .logo_left {
   width: 148px;
   height: 118px;
-  background-image: url(logos/Logo_Left.svg);
+  background-image: url(Logos/Logo_Left.svg);
   background-size: contain;
   background-repeat: no-repeat;
   margin-top: 30px;
@@ -421,7 +421,7 @@ body {
 .logo_no_numbers {
   width: 154px;
   height: 75px;
-  background-image: url(logos/Logo_Right_NO_Numbers_red.svg);
+  background-image: url(Logos/Logo_Right_NO_Numbers_red.svg);
   background-size: contain;
   background-repeat: no-repeat;
   margin-top: 15px;
