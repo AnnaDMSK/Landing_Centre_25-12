@@ -630,7 +630,7 @@ body {
 .basic_approaches_items {
   height: 29px;
   color: var(--White);
-  text-align: right;
+  text-align: justify;
   font-family: Helvetica;
   font-size: 25px;
   font-style: normal;
