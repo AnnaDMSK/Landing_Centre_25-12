@@ -684,7 +684,7 @@ body {
 
 .prof_it_title {
   color: var(--Dark_Blu);
-  text-align: right;
+  text-align: start;
   font-family: Helvetica;
   font-size: 18px;
   font-style: normal;
