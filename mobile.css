@@ -619,7 +619,7 @@ body {
 .basic_approaches_items {
   height: 18px;
   color: var(--White);
-  text-align: start;
+  text-align: center;
   font-family: Helvetica;
   font-size: 16px;
   font-style: normal;
