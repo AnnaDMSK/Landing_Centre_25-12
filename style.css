@@ -471,7 +471,7 @@ body {
   line-height: normal;
   text-transform: uppercase;
   background-color: var(--Dark_Blu);
-  padding-right: 5px 5px;
+  padding: 5px 5px;
 }
 
 .basic_approaches_list {
