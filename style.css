@@ -29,7 +29,7 @@ body {
 .logo_left {
   width: 175px;
   height: 141px;
-  background-image: url(logos/Logo_Left.svg);
+  background-image: url(Logos/Logo_Left.svg);
   background-size: contain;
   background-repeat: no-repeat;
   margin-top: 30px;
