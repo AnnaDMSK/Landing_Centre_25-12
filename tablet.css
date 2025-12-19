@@ -639,7 +639,7 @@ body {
   line-height: normal;
   text-transform: uppercase;
   background-color: var(--Dark_Blu);
-  padding: 5px 15px;
+  padding: 5px 5px;
 }
 .item_analysis {
   width: 386px;

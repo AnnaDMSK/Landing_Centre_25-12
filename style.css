@@ -462,7 +462,7 @@ body {
 }
 
 .basic_approaches_items {
-  width: 485px;
+  width: 480px;
   color: var(--White);
   text-align: right;
   font-family: Helvetica;
@@ -472,7 +472,7 @@ body {
   line-height: normal;
   text-transform: uppercase;
   background-color: var(--Dark_Blu);
-  padding-right: 11px;
+  padding-right: 15px;
 }
 
 .basic_approaches_list {
