@@ -630,23 +630,23 @@ body {
   padding: 5px 15px;
 }
 .item_analysis {
-  width: 247px;
+  max-width: 247px;
 }
 
 .item_dev {
- width: 121px;
+ max-width: 121px;
 }
 
 .item_management {
-  width: 237px;
+  max-width: 237px;
 }
 
 .item_assurance {
- width: 176px;
+ max-width: 176px;
 }
 
 .item_support {
- width: 178px;
+ max-width: 178px;
 }
 
 .basic_approaches_list {
