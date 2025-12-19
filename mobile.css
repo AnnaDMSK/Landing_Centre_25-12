@@ -638,7 +638,7 @@ body {
 }
 
 .item_management {
-  width: 242px;
+  width: 237px;
 }
 
 .item_assurance {
@@ -692,6 +692,7 @@ body {
   line-height: normal;
   text-transform: uppercase;
   margin-top: 28px;
+  text-align: left;
 }
 
 .official_certification_container {
