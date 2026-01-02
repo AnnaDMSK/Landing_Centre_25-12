@@ -829,13 +829,13 @@ body {
 .input_title_last_name {
   position: absolute;
   left: 4%;
-  top: 14%;
+  top: 13%;
   background-color: var(--White);
 }
 
 .input_title_phone {
   position: absolute;
-  top: 35%;
+  top: 34%;
   left: 4%;
   background-color: var(--White);
   
@@ -843,7 +843,7 @@ body {
 
 .input_title_email {
   position: absolute;
-  top: 56%;
+  top: 53%;
   left: 4%;
   background-color: var(--White);
 }
