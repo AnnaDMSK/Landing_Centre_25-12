@@ -385,11 +385,11 @@ body {
 .centre_25-12_text {
   color: var(--Black);
   font-family: Helvetica;
-  font-size: 16px;
+  font-size: 18px;
   font-style: normal;
   font-weight: 400;
   line-height: 34px;
-  text-transform: uppercase;
+  text-transform: lowercase;
   margin-left: 13px;
   margin-top: 30px;
  
@@ -415,7 +415,7 @@ body {
   font-style: normal;
   font-weight: 700;
   line-height: 34px; 
-  text-transform: uppercase;
+  text-transform: capitalize;
 }
 
 .logo_no_numbers {
@@ -432,11 +432,11 @@ body {
 .our_mission_text {
   color: var(--Black);
   font-family: Helvetica;
-  font-size: 16px;
+  font-size: 18px;
   font-style: normal;
   font-weight: 400;
   line-height: 34px;
-  text-transform: uppercase;
+  text-transform: lowercase;
   text-align: right;
   margin-right: 13px;
   position:relative;
@@ -461,11 +461,11 @@ body {
   color: var(--Black);
   text-align: right;
   font-family: Helvetica;
-  font-size: 16px;
+  font-size: 18px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
-  text-transform: uppercase;
+  text-transform: lowercase;
   margin-right: 13px;
 }
 
@@ -473,6 +473,13 @@ body {
   position: relative;
 }
 
+.partnerships::first-letter {
+  text-transform: uppercase;
+}
+
+.trusted::first-letter {
+  text-transform: uppercase;
+}
 .partnerships::before,
 .ten_plus::before,
 .trusted::before {
@@ -484,7 +491,7 @@ body {
   border-bottom: 7px solid transparent;
   border-left: 14px solid var(--Dark-Red);
   right: 10;
-  top: 0;
+  top: 5px;
   left: -30px;
 }
 
@@ -560,17 +567,17 @@ body {
   font-weight: 400;
   line-height: normal;
   text-transform: uppercase;
-  margin: 0px 0px 10px 0px;
+  margin: 0px 30px 10px 0px;
 }
 
 .product_details {
   color: var(--Black);
   font-family: Helvetica;
-  font-size: 18px;
+  font-size: 20px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
-  text-transform: uppercase;
+  text-transform: capitalize;
   margin: 0;
 }
 
@@ -636,29 +643,33 @@ body {
   font-style: normal;
   font-weight: 400;
   line-height: normal;
-  text-transform: uppercase;
+  text-transform: capitalize;
   background-color: var(--Dark_Blu);
   padding: 5px 5px;
+  text-align: end;
 }
+
 .item_analysis {
-  width: 405px;
+  width: 325px;
 }
 
 .item_dev {
- width: 189px;
+ width: 150px;
 }
 
 .item_management {
-  width: 375px;
+  width: 290px;
 }
 
 .item_assurance {
- width: 275px;
+ width: 205px;
 }
 
 .item_support {
- width: 278px;
+ width: 218px;
 }
+
+
 
 .basic_approaches_list {
   position: absolute;
@@ -747,7 +758,7 @@ body {
   font-style: normal;
   font-weight: 400;
   line-height: 115%; 
-  text-transform: uppercase;
+  text-transform: capitalize;
   margin-left: 15px;
   position: relative;
   padding-left: 10px;
@@ -839,7 +850,7 @@ body {
   font-size: 20px;
   font-style: normal;
   font-weight: 400;
-  text-transform: uppercase;
+  text-transform: lowercase;
   text-align: left;
   margin-left: 13px;
   margin-bottom: 10px;
@@ -848,8 +859,12 @@ body {
   
 }
 
+.sub_paragraph::first-letter {
+  text-transform: uppercase;
+}
+
 .sub_apply_paragraph {
-  margin-right: 100px;
+  margin-right: 180px;
 }
 
 .sub_accent {
@@ -859,13 +874,14 @@ body {
   font-style: normal;
   font-weight: 700;
   line-height: normal;
-  text-transform: uppercase;
+  text-transform: lowercase;
 
 }
 
 .sub_paragraph_two {
   line-height: 30px;
   margin-top: 10px;
+  margin-right: 130px;
 }
 
 .contact_form {
