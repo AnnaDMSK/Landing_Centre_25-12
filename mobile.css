@@ -372,13 +372,13 @@ body {
 .centre_25-12_text {
   color: var(--Black);
   font-family: Helvetica;
-  font-size: 14px;
+  font-size: 16px;
   font-style: normal;
   font-weight: 400;
   line-height: 25px;
   text-transform: lowercase;
   position: relative;
-  left: 10px;
+  left: 5px;
  
 
 }
@@ -398,7 +398,7 @@ body {
 .sub_title_centre {
   color: var(--Dark-Red);
   font-family: Helvetica;
-  font-size: 14px;
+  font-size: 16px;
   font-style: normal;
   font-weight: 700;
   line-height: 34px; 
@@ -420,13 +420,13 @@ body {
 .our_mission_text {
   color: var(--Black);
   font-family: Helvetica;
-  font-size: 14px;
+  font-size: 16px;
   font-style: normal;
   font-weight: 400;
   line-height: 25px;
   text-transform: lowercase;
   text-align: start;
-  left: 25px;
+  left: 20px;
   position:relative;
 }
 
@@ -447,12 +447,12 @@ body {
   color: var(--Black);
   text-align: right;
   font-family: Helvetica;
-  font-size: 14px;
+  font-size: 16px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
   text-transform: lowercase;
-  left: 25px;
+  left: 20px;
   position: relative;
 }
 
@@ -832,7 +832,7 @@ body {
   color: var(--Dark-Red);
   text-align: right;
   font-family: Helvetica;
-  font-size: 14px;
+  font-size: 16px;
   font-style: normal;
   font-weight: 400;
   text-transform: lowercase;
@@ -851,7 +851,7 @@ body {
 .sub_accent {
   color: var(--Dark-Red);
   font-family: Helvetica;
-  font-size: 14px;
+  font-size: 16px;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
