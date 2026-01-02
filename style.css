@@ -401,27 +401,27 @@ body {
 }
 
 .mobile_app {
-  margin-right: 86px;
-}
-
-.website_cms {
-  margin-right: 139px;
-}
-
-.server_solutions {
-  margin-right: 108px;
-}
-
-.client_app {
   margin-right: 90px;
 }
 
-.web_app {
+.website_cms {
   margin-right: 117px;
 }
 
+.server_solutions {
+  margin-right: 115px;
+}
+
+.client_app {
+  margin-right: 95px;
+}
+
+.web_app {
+  margin-right: 105px;
+}
+
 .database {
-  margin-right: 194px;
+  margin-right: 180px;
 }
 
 .program_languages {
