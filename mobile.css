@@ -546,11 +546,11 @@ body {
 .title_product {
   color: var(--Dark_Blu);
   font-family: Helvetica;
-  font-size: 14px;
+  font-size: 16px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
-  text-transform: uppercase;
+  text-transform: inherit;
   margin: 0px 0px 10px 0px;
 }
 
@@ -860,7 +860,7 @@ body {
 }
 
 .sub_paragraph_two {
-  line-height: 20px;
+  line-height: 25px;
   margin-top: 0px;
   margin-bottom: 42px;
 }

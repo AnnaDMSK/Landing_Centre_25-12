@@ -208,7 +208,7 @@ body {
   font-size: 24px;
   font-style: normal;
   font-weight: 400;
-  line-height: 34px;
+  line-height: 40px;
   text-transform: lowercase;
   margin-left: 13px;
  
@@ -257,7 +257,7 @@ body {
   font-size: 24px;
   font-style: normal;
   font-weight: 400;
-  line-height: 34px;
+  line-height: 40px;
   text-transform: lowercase;
   text-align: right;
   margin-right: 13px;
@@ -383,21 +383,21 @@ body {
 .title_product {
   color: var(--Dark_Blu);
   font-family: Helvetica;
-  font-size: 20px;
+  font-size: 24px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
-  text-transform: uppercase;
+  text-transform: inherit;
 }
 
 .product_details {
   color: var(--Black);
   font-family: Helvetica;
-  font-size: 20px;
+  font-size: 24px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
-  text-transform: capitalize;
+  text-transform: inherit;
 }
 
 .mobile_app {
@@ -562,7 +562,7 @@ body {
   color: var(--Black);
   text-shadow: 0 0 2px rgba(0, 0, 0, 0.25);
   font-family: Helvetica;
-  font-size: 20px;
+  font-size: 24px;
   font-style: normal;
   font-weight: 400;
   line-height: 115%; 
@@ -651,7 +651,7 @@ body {
   color: var(--Dark-Red);
   text-align: right;
   font-family: Helvetica;
-  font-size: 20px;
+  font-size: 24px;
   font-style: normal;
   font-weight: 400;
   text-transform: lowercase;
@@ -668,7 +668,7 @@ body {
 .sub_accent {
   color: var(--Dark-Red);
   font-family: Helvetica;
-  font-size: 20px;
+  font-size: 24px;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
@@ -677,7 +677,7 @@ body {
 }
 
 .sub_paragraph_two {
-  line-height: 30px;
+  line-height: 40px;
   margin-top: 10px;
 }
 
