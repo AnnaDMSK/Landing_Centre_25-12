@@ -746,7 +746,7 @@ body {
   font-style: normal;
   font-weight: 700;
   line-height: normal;
-  text-transform: uppercase;
+  text-transform: capitalize;
   margin-left: 15px;
 }
 
